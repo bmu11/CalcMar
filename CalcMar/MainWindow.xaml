@@ -100,7 +100,11 @@
                 <SolidColorBrush Color="Black" Opacity="0.9"/>
             </Button.Background>
         </Button>
-        <Button Content="2" HorizontalAlignment="Left" Height="71" Margin="115,455,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click" FontSize="22" Background="Black" Foreground="White" BorderBrush="White"/>
+        <Button Content="2" HorizontalAlignment="Left" Height="71" Margin="115,455,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click" FontSize="22" Foreground="White" BorderBrush="White">
+            <Button.Background>
+                <SolidColorBrush Color="Black" Opacity="0.9"/>
+            </Button.Background>
+        </Button>
         <Button Content="3" HorizontalAlignment="Left" Height="71" Margin="220,455,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click" FontSize="22" Foreground="White" BorderBrush="White">
             <Button.Background>
                 <SolidColorBrush Color="Black" Opacity="0.9"/>
