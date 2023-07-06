@@ -7,6 +7,9 @@
         mc:Ignorable="d"
          Title="MainWindow" Height="643" Width="449">
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/pepe_toilet.png" Stretch="Uniform"/>
+        </Grid.Background>
         <!--<Grid.Background>
             <ImageBrush ImageSource="/pepe_toilet.png" Stretch="Uniform" TileMode="None"/>
         </Grid.Background>-->

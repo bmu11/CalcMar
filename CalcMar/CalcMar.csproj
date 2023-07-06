@@ -8,7 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="pepe_toilet.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Новая папка\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="pepe_toilet.png" />
   </ItemGroup>
 
 </Project>
